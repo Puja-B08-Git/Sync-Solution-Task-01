@@ -1,0 +1,101 @@
+.login-page{
+    background-color:lavender;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color:aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 0px 10px #a2a2fcea;
+}
+.welcome-img{
+    background-image: url("https://i.pinimg.com/736x/1e/2f/0a/1e2f0aaae60c89da0add971be00d8c62.jpg");
+    height: 400px;
+    width: 400px;
+    border-radius: 20px 0px 0px 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -1px 0px 10px #a2a2fcea;
+}
+
+.login-input{
+    padding: 10px 10px 6px 2px;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    background-color: transparent;
+}
+.login-input:focus{
+    outline: none;
+    border-bottom: 2px solid #a2a2fcea;
+}
+.login-btn{
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #102442;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-btn:active{
+    transform: scale(0.90);
+    transition: all 0.1s ease-in-out;
+}
+.message{
+    font-size: 14px;
+    color: #102442;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.otp-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color:aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 0px 10px #a2a2fcea;
+}
+.otp-input{
+    padding: 10px 10px 6px 2px;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    background-color: transparent;
+}
+.otp-input:focus{
+    outline: none;
+    border-bottom: 2px solid #a2a2fcea;
+}
+.otp-btn:active{
+    transform: scale(0.90);
+    transition: all 0.1s ease-in-out;
+}
+.otp-btn{
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #102442;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.otp-btn:active{
+    transform: scale(0.90);
+    transition: all 0.1s ease-in-out;
+}
